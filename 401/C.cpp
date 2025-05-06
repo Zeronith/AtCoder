@@ -16,4 +16,3 @@ int main ()
   }
   cout << v[n] << endl;
 }
-#include<iostream>
