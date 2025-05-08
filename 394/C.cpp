@@ -39,14 +39,9 @@ int main ()
     {
       cout << s[i];
     }
-  // Failing at WWWWWWW
-  // Failing at AWWWW
 }
-  if(cnt==0)
-    {
       for(int j=0; j<v.size(); j++)
       {
         cout << v[j];
       }
-    }
 }

@@ -32,7 +32,6 @@ int main ()
         cout << 'W';
       }
       v.clear();
-      cnt++;
       cout << s[i];
       isW = false;
     }
@@ -41,12 +40,10 @@ int main ()
       cout << s[i];
     }
   // Failing at WWWWWWW
-  }
-  if(cnt==0)
-    {
+  // Failing at AWWWW
+}
       for(int j=0; j<v.size(); j++)
       {
         cout << v[j];
       }
-    }
 }
