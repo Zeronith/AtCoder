@@ -4,7 +4,7 @@ int main ()
 {
   int n, m , k;
   cin >> n >> m >> k;
-  if(n%m==0 || m%n ==0 || k%n==0)
+  if(n*m==k || m*k==n || n*k==m)
   {
     cout << "Yes\n";
   }
